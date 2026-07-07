@@ -36,12 +36,12 @@ const Pi = 3.14 ; //const là hằng số , ko đc gán lại gtri khác
 // Biến ko đặt trùng tên
 
 // Cho nhập vào tên và log ra tên người đó
-let ten = prompt()
-console.log("Xin chào : " + ten)
-let nghe = prompt("Bạn làm nghề gì : ")
-console.log("Xin chào : " + nghe)
-// Yêu cầu nhập cạnh hình vuông , tính diện tích
-let canh = prompt("Cạnh : ")
-console.log("Diện tích hình vuông : " +(canh*canh))
+// let ten = prompt()
+// console.log("Xin chào : " + ten)
+// let nghe = prompt("Bạn làm nghề gì : ")
+// console.log("Xin chào : " + nghe)
+// // Yêu cầu nhập cạnh hình vuông , tính diện tích
+// let canh = prompt("Cạnh : ")
+// console.log("Diện tích hình vuông : " +(canh*canh))
 // + , - , * , /
 
