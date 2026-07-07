@@ -44,4 +44,20 @@ const Pi = 3.14 ; //const là hằng số , ko đc gán lại gtri khác
 // let canh = prompt("Cạnh : ")
 // console.log("Diện tích hình vuông : " +(canh*canh))
 // + , - , * , /
-
+console.log("===== Toán tử số học =====")
+let a = 10 
+let b = 20 
+let hieu = a - b 
+let thuong = a * b
+let tich = a / b
+let mod = a % b //chia lấy dư
+console.log("a + b = ", a+b)
+console.log("a - b = ", hieu)
+console.log("a * b = "+ thuong)
+console.log("a / b = "+ tich)
+console.log("a % b = " , mod)
+let so1 = prompt("Nhập số thứ nhất : ")
+let so2 = prompt("Nhập số thứ hai : ")
+console.log(so1+so2) //Nối chuỗi
+console.log("===== Ép kiểu =====")
+console.log(Number(so1)+Number(so2)) //Ép kiểu
