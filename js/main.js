@@ -56,8 +56,36 @@ console.log("a - b = ", hieu)
 console.log("a * b = "+ thuong)
 console.log("a / b = "+ tich)
 console.log("a % b = " , mod)
-let so1 = prompt("Nhập số thứ nhất : ")
-let so2 = prompt("Nhập số thứ hai : ")
-console.log(so1+so2) //Nối chuỗi
-console.log("===== Ép kiểu =====")
-console.log(Number(so1)+Number(so2)) //Ép kiểu
+// let so1 = prompt("Nhập số thứ nhất : ")
+// let so2 = prompt("Nhập số thứ hai : ")
+// console.log(so1+so2) //Nối chuỗi
+// console.log("===== Ép kiểu =====")
+// console.log(Number(so1)+Number(so2)) //Ép kiểu
+// boolean : true , false
+//undefined : ko xác định
+//null : hiện tại ko có giá trị
+// typeof : ktra kiểu dữ liệu
+// Number(prompt("NHập số thứ ba : ")) //Nhập liệu xong chuyển vè số 
+console.log(parseInt("123"));
+console.log(parseInt("123abc"));
+console.log(parseFloat("19.6"));
+console.log(parseInt("19.6")); //chỉ in ra 19
+console.log(typeof 123);
+let bien1 = "Hello"
+console.log(typeof bien1);
+console.log(typeof undefined);
+console.log(typeof null);
+// Nối chuỗi
+// + :
+// ` ` : template string
+let hoten = "Anh Tú"
+let tuoi = "25"
+let nghe = "IT"
+console.log("Họ tên : "+ hoten +" ");
+console.log(`Họ tên : ${hoten} , Tuổi : ${tuoi} , Nghề : ${nghe} `);
+// Thư viện math
+console.log(Math.PI);
+console.log(Math.floor(9.4)); //Làm tròn xuống
+console.log(Math.ceil(9.5)) //Làm tròn lên
+console.log(Math.round(9.6)); //Làm tròn bình thường 
+console.log(Math.round(9.4)); //Làm tròn bình thường
