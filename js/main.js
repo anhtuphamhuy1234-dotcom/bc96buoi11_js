@@ -89,3 +89,26 @@ console.log(Math.floor(9.4)); //Làm tròn xuống
 console.log(Math.ceil(9.5)) //Làm tròn lên
 console.log(Math.round(9.6)); //Làm tròn bình thường 
 console.log(Math.round(9.4)); //Làm tròn bình thường
+console.log(Math.random());
+console.log(Math.floor(Math.random()*10)); //random 0 tới 9
+// random : ra kết quả từ 0 -> 1
+// random*10 : ra kết quả từ 0 -> 10
+console.log("===Toán tử Gán===");
+// += , -= , /= , *= , %=
+let x = 8 
+x += 2 //x = x + 2
+console.log(x);
+let y = 5
+// Hậu tố : y++ , y-- 
+// tăng sau : dùng trước r ms tăng
+// Tiền tố : ++y , --y
+// tăng trước : tăng r ms dùng
+console.log("y" , y);
+console.log("y++" , y++); //tăng 1 đơn vị
+console.log("y" , y);
+console.log("y--" , y--); // giảm 1 đơn vị
+console.log("y" , y);
+let z = 10
+console.log("z" , z);
+console.log("++z" , ++z);
+console.log("--z" , --z);
