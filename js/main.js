@@ -112,3 +112,11 @@ let z = 10
 console.log("z" , z);
 console.log("++z" , ++z);
 console.log("--z" , --z);
+// TINH LUONG
+// Input : Số ngày làm , lương 1 ngày
+let luong1ngay = 100000
+let songaylam = Number(prompt("Nhập số ngày làm : "))
+// Process : lương = songaylam * luong1ngay
+let luong = songaylam * luong1ngay 
+// Output : lương
+console.log(`Lương của bạn khi làm ${songaylam} ngày là ${luong.toLocaleString()} VNĐ `);
